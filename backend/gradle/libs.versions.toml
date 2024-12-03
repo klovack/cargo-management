@@ -1,0 +1,7 @@
+[versions]
+openapi = "2.7.0"
+mockk = "1.13.13"
+
+[libraries]
+openapi = { module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "openapi" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }

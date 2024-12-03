@@ -30,8 +30,8 @@ dependencies {
     implementation(kotlin("stdlib"))
 
     // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
-    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0")
-
+    implementation(libs.openapi)
+    testImplementation(libs.mockk)
 }
 
 kotlin {
